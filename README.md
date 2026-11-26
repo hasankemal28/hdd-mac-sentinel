@@ -1,10 +1,10 @@
-# HDD mac sentinel
+# HDD Mac Sentinel
 
-HDD mac sentinel, Mac’e bağlı harici depolama aygıtlarını gösteren Türkçe bir macOS uygulamasıdır. macOS 13 Ventura ve sonrası için derlenir. Uygulama Apple Silicon ve Intel Mac’leri destekler.
+HDD Mac Sentinel, Mac’e bağlı harici depolama aygıtlarını gösteren Türkçe bir macOS uygulamasıdır. macOS 13 Ventura ve sonrası için derlenir. Uygulama Apple Silicon ve Intel Mac’leri destekler.
 
 ## Kullanım
 
-1. [GitHub Releases](https://github.com/hasankemal28/hdd-mac-sentinel/releases/latest) sayfasından macOS ZIP dosyasını indirin. ZIP dosyasını açın ve **HDD mac sentinel.app** uygulamasını başlatın.
+1. [GitHub Releases](https://github.com/hasankemal28/hdd-mac-sentinel/releases/latest) sayfasından macOS ZIP dosyasını indirin. ZIP dosyasını açın ve **HDD Mac Sentinel.app** uygulamasını başlatın.
 2. USB belleğinizi, SSD’nizi veya sabit diskinizi bağlayın ve sol listeden seçin.
 3. SMART durumunu inceleyin. SMART verisi alınamıyorsa **Disk sağlığı → Dosya Sistemlerini Denetle** ile diskteki birimlerin dosya sistemi yapılarını denetleyin. GUID bölüm haritalı disklerde **Bölüm Haritasını Denetle** ile bölüm düzenini de kontrol edebilirsiniz.
 4. Biçimlendirmek için yeni bir disk adı ve dosya sistemi seçin. **Diski Biçimlendir…** düğmesine basın. Onay ekranındaki model, kapasite ve birim adlarını kontrol edip **Diski Sil ve Biçimlendir** düğmesine basın.

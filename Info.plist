@@ -2,13 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleName</key><string>HDD mac sentinel</string>
-    <key>CFBundleDisplayName</key><string>HDD mac sentinel</string>
+    <key>CFBundleName</key><string>HDD Mac Sentinel</string>
+    <key>CFBundleDisplayName</key><string>HDD Mac Sentinel</string>
     <key>CFBundleExecutable</key><string>HDDMacSentinel</string>
     <key>CFBundleIdentifier</key><string>local.haricidisk.app</string>
     <key>CFBundlePackageType</key><string>APPL</string>
-    <key>CFBundleVersion</key><string>3</string>
-    <key>CFBundleShortVersionString</key><string>1.1.1</string>
+    <key>CFBundleVersion</key><string>4</string>
+    <key>CFBundleShortVersionString</key><string>1.1.2</string>
     <key>CFBundleDevelopmentRegion</key><string>tr</string>
     <key>CFBundleIconFile</key><string>AppIcon</string>
     <key>LSMinimumSystemVersion</key><string>13.0</string>

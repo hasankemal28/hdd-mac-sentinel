@@ -7,7 +7,7 @@ destination="${destination:A}"
 build_dir="$(mktemp -d)"
 trap 'rm -rf -- "$build_dir"' EXIT
 
-bundle="$build_dir/HDD mac sentinel.app"
+bundle="$build_dir/HDD Mac Sentinel.app"
 mkdir -p -- "$bundle/Contents/MacOS" "$bundle/Contents/Resources"
 cp Info.plist "$bundle/Contents/Info.plist"
 cp AppIcon.icns "$bundle/Contents/Resources/"
@@ -20,5 +20,5 @@ xcrun lipo -create "$build_dir/HDDMacSentinel-arm64" "$build_dir/HDDMacSentinel-
     -output "$bundle/Contents/MacOS/HDDMacSentinel"
 /usr/bin/codesign --force --sign - "$bundle"
 /usr/bin/codesign --verify --strict "$bundle"
-/usr/bin/ditto "$bundle" "$destination/HDD mac sentinel.app"
-print -r -- "$destination/HDD mac sentinel.app"
+/usr/bin/ditto "$bundle" "$destination/HDD Mac Sentinel.app"
+print -r -- "$destination/HDD Mac Sentinel.app"

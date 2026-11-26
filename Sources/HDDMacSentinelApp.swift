@@ -3,7 +3,7 @@ import SwiftUI
 @main
 struct HDDMacSentinelApp: App {
     var body: some Scene {
-        Window("HDD mac sentinel", id: "main") {
+        Window("HDD Mac Sentinel", id: "main") {
             DiskWindow()
         }
         .defaultSize(width: 860, height: 700)
